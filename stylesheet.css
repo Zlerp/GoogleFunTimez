@@ -61,3 +61,11 @@
 .bar2.tdchild{
 	word-spacing: 1px;
 }
+#otherbar{
+	padding-left:10%;
+/*	width:100px;
+	margin-top:-1em;
+	background-color:#FFFFFF;
+	display: inline-block;
+	text-align: center;*/
+}

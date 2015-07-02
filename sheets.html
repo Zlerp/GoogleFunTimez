@@ -44,17 +44,22 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-      <div class="bar2">
-        <tr>
-          <td>Web</td>
-          <td>Images</td>
-          <td>Videos</td>
-          <td>Shopping</td>
-          <td>News</td>
-          <td>More</td>
-          <td id="tdchild">Search-Tools</td>
-        </tr>
-      </div>
+      <ul id="otherbar" class="nav navbar-nav navbar">
+
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Shopping</a></li>
+        <li><a href="#">News</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">picture <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+          </ul>
+        </li>
+      </ul>
+      <br><br><br>
+  
   		<div class="panel panel-default">
       <span class="timeResults">About 6 results (0.29 seconds) </span>
         <div class="panel-body">
@@ -91,6 +96,7 @@
 
           </div>
           <div class="panel-body">
+
             <a class="link"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0CEcQFjAF&url=http%3A%2F%2Fwww.htmldog.com%2Fguides%2Fcss%2Fbeginner%2Fmargins%2F&ei=tICVVaCYMcKF-gHgm6T4Cw&usg=AFQjCNHDVLx-sdtvLw1u6aVACX-rVgC3Fw&sig2=YZmCNEpqpN8tcsM-1lf4pg&bvm=bv.96952980,d.cWw">Margins and Padding | HTML Dog</a>
             <p class="tinyLink">www.htmldog.com › Tutorials › CSS › Beginner</p>
             <p class="summary">Change the CSS code for h2 to the following: h2 { font-size: 1.5em; background-color: #ccc; margin: 20px; padding: 40px; }. This leaves a 20-pixel width space ...</p> 
