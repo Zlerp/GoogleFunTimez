@@ -1,4 +1,17 @@
-content{
+.navbar-form .form-control {
+	width: 50em;
+}
 
-	padding-right: 10px;
+#googleLogo{
+	/*margin-left:-1em;*/
+	width:90;
+	height:43; 
+	margin-top:-0.5em;
+}
+.btn-default{
+	background-color: #4d90fe;
+	padding-right: 1.5em;
+	padding-top:0.65em;
+	padding-bottom:0.65em;
+	padding-left: 1.5em;
 }
