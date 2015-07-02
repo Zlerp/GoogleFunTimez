@@ -15,3 +15,49 @@
 	padding-bottom:0.65em;
 	padding-left: 1.5em;
 }
+.panel-default {
+	margin-left: 150px;
+	width: 40em; 
+	border: none;
+}
+
+.panel-body {
+	padding: 5px;
+
+}
+
+.link {
+	font-size: 2rem;
+	color: #1a0dab;
+	font-weight: 500;
+}
+.tinyLink {
+	font-size: 1.5rem;
+	color: green;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 500;
+}
+.summary {
+	color: #808080;
+	margin: 0px;
+}
+
+.timeResults {
+	font-size: 1.5rem;
+	color: #999999;
+}
+
+.bar2 {
+	width: 100%;
+	padding: 8px;
+	border: none;
+	margin-left: 140px;
+	font-size: 1.7rem;
+	color: #808080;
+	word-spacing: 20px;
+}
+
+.bar2.tdchild{
+	word-spacing: 1px;
+}
